@@ -1,7 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
+
+// add swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-app.MapGet("/", () => "Microservice is running!");
+// add swagger
+app.UseSwagger();
+
+app.MapGet("/", () => "Microservice is running!").WithTags("Home");
 
 app.MapGet("/test", async () => {
     
@@ -41,6 +49,10 @@ app.MapGet("/test", async () => {
     {
         // Clean up.
     }
-});
+})
+.WithTags("Test");
+
+// add swagger
+app.UseSwaggerUI();
 
 app.Run();

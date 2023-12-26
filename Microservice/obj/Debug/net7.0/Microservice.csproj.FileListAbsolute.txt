@@ -24,3 +24,9 @@
 /Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/obj/Debug/net7.0/Microservice.pdb
 /Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/obj/Debug/net7.0/Microservice.genruntimeconfig.cache
 /Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/obj/Debug/net7.0/ref/Microservice.dll
+/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/bin/Debug/net7.0/Swashbuckle.AspNetCore.Annotations.dll
+/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/obj/Debug/net7.0/Microservice.MvcApplicationPartsAssemblyInfo.cs
+/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/obj/Debug/net7.0/Microservice.csproj.CopyComplete

@@ -18,6 +18,8 @@ dotnet run --project Microservice/
 
 ### Add package
 
+Add swagger package
+
 ```bash
-dotnet add package Microsoft.EntityFrameworkCore.InMemory
+dotnet add Microservice/ Swashbuckle.AspNetCore.Annotations
 ```
