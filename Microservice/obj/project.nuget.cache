@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zoNFJXb4YMODIzhDwDZ/kNLTkPJTQJyQ1aSZhICHkH5bCozvF2tmmhPPkFFWBSGp5xmxE1G1Nm/4QT7LfZUioQ==",
+  "dgSpecHash": "6FX2xYKcBmuSBd0i4Px+IGpOHZO6NrAxPA+08p4jP31EeXG5N48Bde5gXO22bXw8rW94mO8cPX1Ywderk+3SKg==",
   "success": true,
   "projectFilePath": "/Users/PauloAndrade/Documents/Developer/Github/Labs-minimal-api-net-core/Microservice/Microservice.csproj",
   "expectedPackageFiles": [
+    "/Users/PauloAndrade/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "/Users/PauloAndrade/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/PauloAndrade/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/PauloAndrade/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/PauloAndrade/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/PauloAndrade/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/PauloAndrade/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

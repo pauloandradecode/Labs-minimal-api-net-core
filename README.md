@@ -21,5 +21,7 @@ dotnet run --project Microservice/
 Add swagger package
 
 ```bash
+dotnet add Microservice/ Swashbuckle.AspNetCore
 dotnet add Microservice/ Swashbuckle.AspNetCore.Annotations
+dotnet add Microservice/ Microsoft.AspNetCore.OpenApi
 ```

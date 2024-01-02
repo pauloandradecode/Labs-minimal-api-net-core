@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // add swagger
@@ -6,8 +9,13 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// add swagger
-app.UseSwagger();
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment()){
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Microservice is running!").WithTags("Home");
 
@@ -50,9 +58,12 @@ app.MapGet("/test", async () => {
         // Clean up.
     }
 })
-.WithTags("Test");
-
-// add swagger
-app.UseSwaggerUI();
+.WithName("Test Microservice")
+.WithOpenApi(x => new OpenApiOperation(x)
+{
+    Summary = "Get User Fakes",
+    Description = "Returns information about all the available users.",
+    Tags = new List<OpenApiTag> { new() { Name = "Microservices test" } }
+});
 
 app.Run();
